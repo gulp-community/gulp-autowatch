@@ -34,9 +34,10 @@ var paths = {
   config: './server/config/*.json'
 };
 
-gulp.task('watch', function(cb) {
+// assume all those tasks were defined
+
+gulp.task('watch', function() {
   autowatch(gulp, paths);
-  return cb();
 });
 
 ```
