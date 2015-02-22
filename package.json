@@ -1,24 +1,24 @@
 {
-  "name":"gulp-autowatch",
-  "description":"Sugar for reusing a paths object to watch and run gulp tasks",
-  "version":"0.0.1",
-  "homepage":"http://github.com/wearefractal/gulp-autowatch",
-  "keywords": ["gulpfriendly"],
-
+  "name": "gulp-autowatch",
+  "description": "Sugar for reusing a paths object to watch and run gulp tasks",
+  "version": "1.0.0",
+  "homepage": "http://github.com/wearefractal/gulp-autowatch",
+  "keywords": [
+    "gulpfriendly"
+  ],
   "repository": {
     "type": "git",
     "url": "git://github.com/wearefractal/gulp-autowatch.git"
   },
-  "author":"Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
-  "main":"./index.js",
-
+  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "main": "./index.js",
   "engines": {
     "node": ">= 0.9"
   },
-  "licenses":[
+  "licenses": [
     {
-      "type":"MIT",
-      "url":"http://github.com/wearefractal/gulp-autowatch/raw/master/LICENSE"
+      "type": "MIT",
+      "url": "http://github.com/wearefractal/gulp-autowatch/raw/master/LICENSE"
     }
   ]
 }
