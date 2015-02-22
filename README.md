@@ -4,7 +4,7 @@
 ## Information
 
 <table>
-<tr> 
+<tr>
 <td>Package</td><td>gulp-autowatch</td>
 </tr>
 <tr>
@@ -18,6 +18,8 @@
 </table>
 
 ## Usage
+
+Supports gulp 3.x and 4.x
 
 ```javascript
 var gulp = require('gulp');
