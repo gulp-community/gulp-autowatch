@@ -2,7 +2,7 @@ function gulp4(gulp, paths) {
   Object.keys(gulp._registry._tasks).forEach(function(taskName){
     var glob = paths[taskName];
     if (!glob) return;
-    gulp.watch(glob, taskName);
+    gulp.watch(glob, gulp.parallel(taskName));
   });
 }
 
